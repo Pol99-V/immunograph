@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20234E8A1BA80F50003ED8C6 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20234E891BA80F50003ED8C6 /* HistoryViewController.m */; };
+		20234E8C1BA81604003ED8C6 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20234E8B1BA81604003ED8C6 /* CustomCell.xib */; };
+		20234E951BA82A9C003ED8C6 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20234E941BA82A9C003ED8C6 /* CustomCell.m */; };
+		204E94041BA6BD7200B7CDF4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204E94031BA6BD7100B7CDF4 /* MapViewController.m */; };
+		204E94061BA6BF9E00B7CDF4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E94051BA6BF9E00B7CDF4 /* MapKit.framework */; };
+		204E94081BA6BFAC00B7CDF4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E94071BA6BFAC00B7CDF4 /* CoreLocation.framework */; };
+		209A818B1BA13C7C00494664 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209A818A1BA13C7C00494664 /* QuartzCore.framework */; };
+		209A818D1BA1992300494664 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209A818C1BA1992300494664 /* AssetsLibrary.framework */; };
+		20BAE7511BB53E17001E3418 /* AlermViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BAE7501BB53E17001E3418 /* AlermViewController.m */; };
+		20BAE7531BB5743C001E3418 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BAE7521BB5743B001E3418 /* AudioToolbox.framework */; };
+		20BFB62E1B9FF2EC00496333 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BFB62D1B9FF2EC00496333 /* CoreGraphics.framework */; };
+		20D269E61B9EAF7F00A3AF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D269E51B9EAF7F00A3AF73 /* main.m */; };
+		20D269E91B9EAF7F00A3AF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D269E81B9EAF7F00A3AF73 /* AppDelegate.m */; };
+		20D269EC1B9EAF7F00A3AF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D269EB1B9EAF7F00A3AF73 /* ViewController.m */; };
+		20D269EF1B9EAF7F00A3AF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D269ED1B9EAF7F00A3AF73 /* Main.storyboard */; };
+		20D269F11B9EAF7F00A3AF73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D269F01B9EAF7F00A3AF73 /* Images.xcassets */; };
+		20D269F41B9EAF7F00A3AF73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D269F21B9EAF7F00A3AF73 /* LaunchScreen.xib */; };
+		20D26A001B9EAF8000A3AF73 /* AllergyCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D269FF1B9EAF8000A3AF73 /* AllergyCheckerTests.m */; };
+		20D26A0B1B9EBFE200A3AF73 /* CameraViewContoroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D26A0A1B9EBFE200A3AF73 /* CameraViewContoroller.m */; };
+		20D26A0E1B9ED1A100A3AF73 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D26A0D1B9ED1A100A3AF73 /* ResultViewController.m */; };
+		20D26A111B9ED9D000A3AF73 /* AnalysisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D26A101B9ED9D000A3AF73 /* AnalysisView.m */; };
+		285C47EA1BB0628E00EF4FC0 /* HistoryEntity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 285C47E81BB0628E00EF4FC0 /* HistoryEntity.xcdatamodeld */; };
+		285C47EC1BB065A100EF4FC0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285C47EB1BB065A100EF4FC0 /* CoreData.framework */; };
+		A998064A1CDC3D1E0060D3F7 /* DrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A99806481CDC3BA90060D3F7 /* DrawRect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D269FA1B9EAF7F00A3AF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D269D81B9EAF7F00A3AF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D269DF1B9EAF7F00A3AF73;
+			remoteInfo = AllergyChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20234E881BA80F50003ED8C6 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		20234E891BA80F50003ED8C6 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		20234E8B1BA81604003ED8C6 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		20234E931BA82A9C003ED8C6 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		20234E941BA82A9C003ED8C6 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		204E94021BA6BD7100B7CDF4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		204E94031BA6BD7100B7CDF4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		204E94051BA6BF9E00B7CDF4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		204E94071BA6BFAC00B7CDF4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		209A818A1BA13C7C00494664 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		209A818C1BA1992300494664 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		20BAE74F1BB53E17001E3418 /* AlermViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlermViewController.h; sourceTree = "<group>"; };
+		20BAE7501BB53E17001E3418 /* AlermViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlermViewController.m; sourceTree = "<group>"; };
+		20BAE7521BB5743B001E3418 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		20BFB62B1B9FAE2A00496333 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		20BFB62D1B9FF2EC00496333 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20D269E01B9EAF7F00A3AF73 /* AllergyChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllergyChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D269E41B9EAF7F00A3AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D269E51B9EAF7F00A3AF73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D269E71B9EAF7F00A3AF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20D269E81B9EAF7F00A3AF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20D269EA1B9EAF7F00A3AF73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20D269EB1B9EAF7F00A3AF73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20D269EE1B9EAF7F00A3AF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D269F01B9EAF7F00A3AF73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20D269F31B9EAF7F00A3AF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20D269F91B9EAF7F00A3AF73 /* AllergyCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergyCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D269FE1B9EAF7F00A3AF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D269FF1B9EAF8000A3AF73 /* AllergyCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllergyCheckerTests.m; sourceTree = "<group>"; };
+		20D26A091B9EBFE200A3AF73 /* CameraViewContoroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewContoroller.h; sourceTree = "<group>"; };
+		20D26A0A1B9EBFE200A3AF73 /* CameraViewContoroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewContoroller.m; sourceTree = "<group>"; };
+		20D26A0C1B9ED1A100A3AF73 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		20D26A0D1B9ED1A100A3AF73 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		20D26A0F1B9ED9D000A3AF73 /* AnalysisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisView.h; sourceTree = "<group>"; };
+		20D26A101B9ED9D000A3AF73 /* AnalysisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisView.m; sourceTree = "<group>"; };
+		285C47E91BB0628E00EF4FC0 /* HistoryEntity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryEntity.xcdatamodel; sourceTree = "<group>"; };
+		285C47EB1BB065A100EF4FC0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A99806471CDC3BA90060D3F7 /* DrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DrawRect.h; sourceTree = "<group>"; usesTabs = 0; };
+		A99806481CDC3BA90060D3F7 /* DrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D269DD1B9EAF7F00A3AF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BAE7531BB5743C001E3418 /* AudioToolbox.framework in Frameworks */,
+				285C47EC1BB065A100EF4FC0 /* CoreData.framework in Frameworks */,
+				204E94081BA6BFAC00B7CDF4 /* CoreLocation.framework in Frameworks */,
+				204E94061BA6BF9E00B7CDF4 /* MapKit.framework in Frameworks */,
+				209A818D1BA1992300494664 /* AssetsLibrary.framework in Frameworks */,
+				209A818B1BA13C7C00494664 /* QuartzCore.framework in Frameworks */,
+				20BFB62E1B9FF2EC00496333 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D269F61B9EAF7F00A3AF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D269D71B9EAF7F00A3AF73 = {
+			isa = PBXGroup;
+			children = (
+				20BAE7521BB5743B001E3418 /* AudioToolbox.framework */,
+				285C47EB1BB065A100EF4FC0 /* CoreData.framework */,
+				204E94071BA6BFAC00B7CDF4 /* CoreLocation.framework */,
+				204E94051BA6BF9E00B7CDF4 /* MapKit.framework */,
+				209A818C1BA1992300494664 /* AssetsLibrary.framework */,
+				209A818A1BA13C7C00494664 /* QuartzCore.framework */,
+				20BFB62D1B9FF2EC00496333 /* CoreGraphics.framework */,
+				20BFB62B1B9FAE2A00496333 /* AVFoundation.framework */,
+				20D269E21B9EAF7F00A3AF73 /* AllergyChecker */,
+				20D269FC1B9EAF7F00A3AF73 /* AllergyCheckerTests */,
+				20D269E11B9EAF7F00A3AF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D269E11B9EAF7F00A3AF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D269E01B9EAF7F00A3AF73 /* AllergyChecker.app */,
+				20D269F91B9EAF7F00A3AF73 /* AllergyCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D269E21B9EAF7F00A3AF73 /* AllergyChecker */ = {
+			isa = PBXGroup;
+			children = (
+				20D269E71B9EAF7F00A3AF73 /* AppDelegate.h */,
+				20D269E81B9EAF7F00A3AF73 /* AppDelegate.m */,
+				20D269EA1B9EAF7F00A3AF73 /* ViewController.h */,
+				20D269EB1B9EAF7F00A3AF73 /* ViewController.m */,
+				20D26A091B9EBFE200A3AF73 /* CameraViewContoroller.h */,
+				20D26A0A1B9EBFE200A3AF73 /* CameraViewContoroller.m */,
+				20D26A0F1B9ED9D000A3AF73 /* AnalysisView.h */,
+				20D26A101B9ED9D000A3AF73 /* AnalysisView.m */,
+				20D26A0C1B9ED1A100A3AF73 /* ResultViewController.h */,
+				20D26A0D1B9ED1A100A3AF73 /* ResultViewController.m */,
+				204E94021BA6BD7100B7CDF4 /* MapViewController.h */,
+				204E94031BA6BD7100B7CDF4 /* MapViewController.m */,
+				20BAE74F1BB53E17001E3418 /* AlermViewController.h */,
+				20BAE7501BB53E17001E3418 /* AlermViewController.m */,
+				20234E881BA80F50003ED8C6 /* HistoryViewController.h */,
+				20234E891BA80F50003ED8C6 /* HistoryViewController.m */,
+				285C47E81BB0628E00EF4FC0 /* HistoryEntity.xcdatamodeld */,
+				20234E931BA82A9C003ED8C6 /* CustomCell.h */,
+				20234E941BA82A9C003ED8C6 /* CustomCell.m */,
+				20D269ED1B9EAF7F00A3AF73 /* Main.storyboard */,
+				20234E8B1BA81604003ED8C6 /* CustomCell.xib */,
+				20D269F01B9EAF7F00A3AF73 /* Images.xcassets */,
+				20D269F21B9EAF7F00A3AF73 /* LaunchScreen.xib */,
+				20D269E31B9EAF7F00A3AF73 /* Supporting Files */,
+				A99806471CDC3BA90060D3F7 /* DrawRect.h */,
+				A99806481CDC3BA90060D3F7 /* DrawRect.m */,
+			);
+			path = AllergyChecker;
+			sourceTree = "<group>";
+		};
+		20D269E31B9EAF7F00A3AF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D269E41B9EAF7F00A3AF73 /* Info.plist */,
+				20D269E51B9EAF7F00A3AF73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D269FC1B9EAF7F00A3AF73 /* AllergyCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				20D269FF1B9EAF8000A3AF73 /* AllergyCheckerTests.m */,
+				20D269FD1B9EAF7F00A3AF73 /* Supporting Files */,
+			);
+			path = AllergyCheckerTests;
+			sourceTree = "<group>";
+		};
+		20D269FD1B9EAF7F00A3AF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D269FE1B9EAF7F00A3AF73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D269DF1B9EAF7F00A3AF73 /* AllergyChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D26A031B9EAF8000A3AF73 /* Build configuration list for PBXNativeTarget "AllergyChecker" */;
+			buildPhases = (
+				20D269DC1B9EAF7F00A3AF73 /* Sources */,
+				20D269DD1B9EAF7F00A3AF73 /* Frameworks */,
+				20D269DE1B9EAF7F00A3AF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllergyChecker;
+			productName = AllergyChecker;
+			productReference = 20D269E01B9EAF7F00A3AF73 /* AllergyChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20D269F81B9EAF7F00A3AF73 /* AllergyCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D26A061B9EAF8000A3AF73 /* Build configuration list for PBXNativeTarget "AllergyCheckerTests" */;
+			buildPhases = (
+				20D269F51B9EAF7F00A3AF73 /* Sources */,
+				20D269F61B9EAF7F00A3AF73 /* Frameworks */,
+				20D269F71B9EAF7F00A3AF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D269FB1B9EAF7F00A3AF73 /* PBXTargetDependency */,
+			);
+			name = AllergyCheckerTests;
+			productName = AllergyCheckerTests;
+			productReference = 20D269F91B9EAF7F00A3AF73 /* AllergyCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D269D81B9EAF7F00A3AF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = prage;
+				TargetAttributes = {
+					20D269DF1B9EAF7F00A3AF73 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					20D269F81B9EAF7F00A3AF73 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 20D269DF1B9EAF7F00A3AF73;
+					};
+				};
+			};
+			buildConfigurationList = 20D269DB1B9EAF7F00A3AF73 /* Build configuration list for PBXProject "AllergyChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D269D71B9EAF7F00A3AF73;
+			productRefGroup = 20D269E11B9EAF7F00A3AF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D269DF1B9EAF7F00A3AF73 /* AllergyChecker */,
+				20D269F81B9EAF7F00A3AF73 /* AllergyCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D269DE1B9EAF7F00A3AF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D269EF1B9EAF7F00A3AF73 /* Main.storyboard in Resources */,
+				20D269F41B9EAF7F00A3AF73 /* LaunchScreen.xib in Resources */,
+				20234E8C1BA81604003ED8C6 /* CustomCell.xib in Resources */,
+				20D269F11B9EAF7F00A3AF73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D269F71B9EAF7F00A3AF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D269DC1B9EAF7F00A3AF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D26A111B9ED9D000A3AF73 /* AnalysisView.m in Sources */,
+				20D269EC1B9EAF7F00A3AF73 /* ViewController.m in Sources */,
+				20D26A0B1B9EBFE200A3AF73 /* CameraViewContoroller.m in Sources */,
+				20234E8A1BA80F50003ED8C6 /* HistoryViewController.m in Sources */,
+				20D269E91B9EAF7F00A3AF73 /* AppDelegate.m in Sources */,
+				20D26A0E1B9ED1A100A3AF73 /* ResultViewController.m in Sources */,
+				285C47EA1BB0628E00EF4FC0 /* HistoryEntity.xcdatamodeld in Sources */,
+				20D269E61B9EAF7F00A3AF73 /* main.m in Sources */,
+				20BAE7511BB53E17001E3418 /* AlermViewController.m in Sources */,
+				A998064A1CDC3D1E0060D3F7 /* DrawRect.m in Sources */,
+				204E94041BA6BD7200B7CDF4 /* MapViewController.m in Sources */,
+				20234E951BA82A9C003ED8C6 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D269F51B9EAF7F00A3AF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D26A001B9EAF8000A3AF73 /* AllergyCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D269FB1B9EAF7F00A3AF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D269DF1B9EAF7F00A3AF73 /* AllergyChecker */;
+			targetProxy = 20D269FA1B9EAF7F00A3AF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20D269ED1B9EAF7F00A3AF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D269EE1B9EAF7F00A3AF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D269F21B9EAF7F00A3AF73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D269F31B9EAF7F00A3AF73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D26A011B9EAF8000A3AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D26A021B9EAF8000A3AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D26A041B9EAF8000A3AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AllergyChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.prage.nippn-engineering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20D26A051B9EAF8000A3AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AllergyChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.prage.nippn-engineering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		20D26A071B9EAF8000A3AF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AllergyCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllergyChecker.app/AllergyChecker";
+			};
+			name = Debug;
+		};
+		20D26A081B9EAF8000A3AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AllergyCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllergyChecker.app/AllergyChecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D269DB1B9EAF7F00A3AF73 /* Build configuration list for PBXProject "AllergyChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D26A011B9EAF8000A3AF73 /* Debug */,
+				20D26A021B9EAF8000A3AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D26A031B9EAF8000A3AF73 /* Build configuration list for PBXNativeTarget "AllergyChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D26A041B9EAF8000A3AF73 /* Debug */,
+				20D26A051B9EAF8000A3AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D26A061B9EAF8000A3AF73 /* Build configuration list for PBXNativeTarget "AllergyCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D26A071B9EAF8000A3AF73 /* Debug */,
+				20D26A081B9EAF8000A3AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		285C47E81BB0628E00EF4FC0 /* HistoryEntity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				285C47E91BB0628E00EF4FC0 /* HistoryEntity.xcdatamodel */,
+			);
+			currentVersion = 285C47E91BB0628E00EF4FC0 /* HistoryEntity.xcdatamodel */;
+			path = HistoryEntity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20D269D81B9EAF7F00A3AF73 /* Project object */;
+}

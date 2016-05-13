@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AnalysisView touchesBegan:withEvent:]:AnalysisView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "image_x+imageWidth/rate ">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.bounds.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "point.y">
+            </PersistentString>
+            <PersistentString
+               value = "image_y+imageHeight/rate">
+            </PersistentString>
+            <PersistentString
+               value = "point.x">
+            </PersistentString>
+            <PersistentString
+               value = "imageHeight">
+            </PersistentString>
+            <PersistentString
+               value = "point.y &gt; image_y+imageHeight/rate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapViewController viewDidLoad]:MapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "registLocation">
+            </PersistentString>
+            <PersistentString
+               value = "anotationLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AnalysisView btnOK:]:AnalysisView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.lbl1_1.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ResultViewController btnMap:]:ResultViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView.registLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AnalysisView initLabel]:AnalysisView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AnalysisView viewDidLoad]:AnalysisView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageWidth*rate/2">
+            </PersistentString>
+            <PersistentString
+               value = "viewWidth/2 ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ResultViewController setLabel]:ResultViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "luminanceList.count / 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapViewController btnOK:]:MapViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
